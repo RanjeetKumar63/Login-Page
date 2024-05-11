@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  background-color:pink;
+} */
+
+.container{
+ width: 100vw;
+ height: 100vh;
+ background-image: linear-gradient(45deg,blue,white);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.page{
+  width: 370px;
+  height: auto;
+  background: white;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 15px;
+  padding: 50px 25px;
+ 
+}
+
+.login{
+  display: none;
+}
+.login h1,.signup h1{
+  text-align: center;
+  font-family: sans-serif;
+  
+}
+
+#login_email,#username,#email,#phone{
+  display: grid;
+  padding: 2px;
+  margin: 32px;
+  width: 17em;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid #222;
+  font-size: 16px;
+  outline: none;
+  padding-left: 3px;
+}
+
+#login_password,#password{
+  display: grid;
+  padding: 2px;
+  margin: 32px;
+  width: 17em;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid #222;
+  font-size: 16px;
+  outline: none;
+  padding-left: 3px;
+}
+
+#login-form{
+  margin-top: 50pxx;
+}
+
+#login-btn,#signup-btn{
+ width: 85%;
+ padding: 10px;
+ border: none;
+ background-image: linear-gradient(90deg,blue,grey);
+ color: white;
+ font-style: bold;
+ font-family: sans-serif;
+ height: 38px;
+ margin-left:2rem ;
+ cursor: pointer;
+ outline: none;
+ margin-top: 15px;
+ font-size: large;
+ border-radius: 50px;
+}
+
+.login p,.signup p{
+  font-family: "Poppins" sans-serif;
+  margin-top:20px;
+  font-size: 14px;
+  text-align: center; 
+  font-size: large;
+}
+.blue{
+  color: blue;
+  cursor: pointer;
+  font-size: large;
+}
